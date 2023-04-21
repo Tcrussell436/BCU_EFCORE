@@ -15,4 +15,10 @@ public class Employee
     public decimal Salary { get; set; }
     public string SupervisorNumber { get; set; }
     public int PlantNumber { get; set; }
+    
+    public Employee Supervisor { get; set; }
+    public Plant Plant { get; set; }
+    public IEnumerable<BCU_Account> BcuAccount { get; set; }
+    public IEnumerable<Dependent> Dependents { get; set; }
+    public IEnumerable<Job> Jobs { get; set; }
 }

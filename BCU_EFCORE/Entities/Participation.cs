@@ -8,4 +8,7 @@ public class Participation
     public string DependentLastName { get; set; }
     public decimal AnnualCost { get; set; }
     public decimal HoursPerWeek { get; set; }
+
+    public Hobby Hobby { get; set; }
+    public Dependent Dependent { get; set; }
 }
